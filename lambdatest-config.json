@@ -12,8 +12,8 @@
          ]
       },
       {
-         "browser": "Safari",
-         "platform": "macOS Catalina",
+         "browser": "Firefox",
+         "platform": "Windows 11",
          "versions": [
             "latest-1"
          ]

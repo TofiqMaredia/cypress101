@@ -10,13 +10,6 @@
          "versions": [
             "latest-1"
          ]
-      },
-      {
-         "browser": "Firefox",
-         "platform": "Windows 11",
-         "versions": [
-            "latest-1"
-         ]
       }
    ],
    "run_settings": {
@@ -26,10 +19,12 @@
       "parallels": 1,
       "specs": "cypress/e2e/integration/*.cy.js",
       "ignore_files": "",
-      "network": false,
+      "network": true,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.0.0"
+         "cypress": "10.10.0",
+         "cypress-audit": "1.1.0",
+         "cypress-axe": "1.0.0"
       }
    },
    "tunnel_settings": {

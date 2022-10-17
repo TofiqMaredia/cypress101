@@ -4,5 +4,17 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
+  - init: npm install cypress --save-dev
+    command: echo 'Install cypress'  
+
+  - init: npm install --save-dev cypress-axe
+    command: echo 'Install dependency cypress-axe'
+
+  - init: npm install --D cypress-audit
+    command: echo 'Install dependency cypress-audit'
+
+  - init: npm install -g lambdatest-cypress-cli
+    command: echo 'Install Lambdatest commands'
+  
   - init: lambdatest-cypress run # runs during prebuild
     command: echo 'Please check your test on https://automation.lambdatest.com/'

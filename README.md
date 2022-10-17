@@ -4,7 +4,7 @@
 Shared this private Repository to "LambdaTest-Certifications"
 
 ### Run your Test
-1. Open up the Gitpod environment from Github Repository (Added the .gitpod.yml file to the Repo.)
+1. Open up the Gitpod environment from Github Repository (https://github.com/TofiqMaredia/cypress101.git) (Added the .gitpod.yml file to the Repo.)
 
    This will install all the npm dependencies to run the test. It will also configure the environment to run on the Lambda test cloud.
 

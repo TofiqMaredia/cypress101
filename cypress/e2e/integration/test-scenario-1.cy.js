@@ -4,7 +4,7 @@ describe('Test Scenario', () => {
       cy.visit('/selenium-playground');
     });
   
-    it.skip('Test Scenario 1', () => {
+    it('Test Scenario 1', () => {
       cy.wait(5000).contains('Drag & Drop Sliders').click();
       cy.get('.sp__range-success > .sp__range').as('range')
         .invoke('val', 95)

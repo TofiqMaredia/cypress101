@@ -4,7 +4,6 @@ const { lighthouse, pa11y, prepareAudit } = require("cypress-audit");
 module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://www.lambdatest.com',
-    supportFile: false,
     defaultCommandTimeout: 10000,
     setupNodeEvents(on, config) {
 
